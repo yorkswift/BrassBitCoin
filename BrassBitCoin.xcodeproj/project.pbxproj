@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1A88BD2E20D305C10021685A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD2D20D305C10021685A /* main.swift */; };
+		1A88BD3520D3060E0021685A /* BrassBitCoinBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD3420D3060E0021685A /* BrassBitCoinBlock.swift */; };
+		1A88BD3720D306430021685A /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD3620D306430021685A /* Miner.swift */; };
+		1A88BD3A20D306B80021685A /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD3920D306B80021685A /* SHA256.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		1A88BD2A20D305C10021685A /* BrassBitCoin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BrassBitCoin; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A88BD2D20D305C10021685A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1A88BD3420D3060E0021685A /* BrassBitCoinBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrassBitCoinBlock.swift; sourceTree = "<group>"; };
+		1A88BD3620D306430021685A /* Miner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miner.swift; sourceTree = "<group>"; };
+		1A88BD3920D306B80021685A /* SHA256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		1A88BD2C20D305C10021685A /* BrassBitCoin */ = {
 			isa = PBXGroup;
 			children = (
+				1A88BD3820D3069F0021685A /* Helpers */,
 				1A88BD2D20D305C10021685A /* main.swift */,
+				1A88BD3420D3060E0021685A /* BrassBitCoinBlock.swift */,
+				1A88BD3620D306430021685A /* Miner.swift */,
 			);
 			path = BrassBitCoin;
+			sourceTree = "<group>";
+		};
+		1A88BD3820D3069F0021685A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1A88BD3920D306B80021685A /* SHA256.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A88BD3A20D306B80021685A /* SHA256.swift in Sources */,
+				1A88BD3720D306430021685A /* Miner.swift in Sources */,
+				1A88BD3520D3060E0021685A /* BrassBitCoinBlock.swift in Sources */,
 				1A88BD2E20D305C10021685A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
