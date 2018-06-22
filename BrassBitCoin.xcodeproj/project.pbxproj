@@ -11,6 +11,8 @@
 		1A88BD3520D3060E0021685A /* BrassBitCoinBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD3420D3060E0021685A /* BrassBitCoinBlock.swift */; };
 		1A88BD3720D306430021685A /* Miner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD3620D306430021685A /* Miner.swift */; };
 		1A88BD3A20D306B80021685A /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD3920D306B80021685A /* SHA256.swift */; };
+		1A88BD3C20D30F220021685A /* BlockChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88BD3B20D30F220021685A /* BlockChain.swift */; };
+		1AEBDDC220DD78EA0031E82D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBDDC120DD78EA0031E82D /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		1A88BD3420D3060E0021685A /* BrassBitCoinBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrassBitCoinBlock.swift; sourceTree = "<group>"; };
 		1A88BD3620D306430021685A /* Miner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miner.swift; sourceTree = "<group>"; };
 		1A88BD3920D306B80021685A /* SHA256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		1A88BD3B20D30F220021685A /* BlockChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChain.swift; sourceTree = "<group>"; };
+		1AEBDDC120DD78EA0031E82D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 				1A88BD2D20D305C10021685A /* main.swift */,
 				1A88BD3420D3060E0021685A /* BrassBitCoinBlock.swift */,
 				1A88BD3620D306430021685A /* Miner.swift */,
+				1A88BD3B20D30F220021685A /* BlockChain.swift */,
 			);
 			path = BrassBitCoin;
 			sourceTree = "<group>";
@@ -75,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				1A88BD3920D306B80021685A /* SHA256.swift */,
+				1AEBDDC120DD78EA0031E82D /* API.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 				1A88BD3A20D306B80021685A /* SHA256.swift in Sources */,
 				1A88BD3720D306430021685A /* Miner.swift in Sources */,
 				1A88BD3520D3060E0021685A /* BrassBitCoinBlock.swift in Sources */,
+				1A88BD3C20D30F220021685A /* BlockChain.swift in Sources */,
+				1AEBDDC220DD78EA0031E82D /* API.swift in Sources */,
 				1A88BD2E20D305C10021685A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

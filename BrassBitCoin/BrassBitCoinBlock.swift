@@ -1,11 +1,15 @@
 
-class BrassBitCoinBlock {
+
+
+class BrassBitCoinBlock: Codable {
     
     var index : Int = 0
     var minedBy : String = ""
     var data : String = ""
     var previousHash : String = ""
     var nonce: Int = 0
+    var hash: String = ""
+    
     public var generatedHash : String = ""
     
     public init(withIndex index : Int, miner minedBy : String, havingData data: String, withNonce nonce : Int, previousHash : String) {
@@ -23,7 +27,7 @@ class BrassBitCoinBlock {
         
     }
     
-    private func hash() -> String {
+    private func generateHash() -> String {
         
         let sha = SHA256(self.simpleDescription())
         
@@ -32,8 +36,9 @@ class BrassBitCoinBlock {
     }
     
     public func checkHash(_ newNonce : Int) -> Bool {
+        
         self.nonce = newNonce
-        let hash = String(self.hash())
+        let hash = String(self.generateHash())
         
         
         for j in 0...3 {
